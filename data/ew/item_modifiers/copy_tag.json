@@ -1,0 +1,16 @@
+[
+    {
+        "function": "copy_nbt",
+        "ops": [
+            {
+                "op": "replace",
+                "source": "tag.kills",
+                "target": "kills"
+            }
+        ],
+        "source": {
+            "type": "storage",
+            "source": "ew:temp"
+        }
+    }
+]

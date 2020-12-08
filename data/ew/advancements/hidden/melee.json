@@ -1,0 +1,32 @@
+{
+    "criteria": {
+        "melee": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": false,
+                    "is_explosion": false,
+                    "is_fire": false,
+                    "is_lightning": false,
+                    "is_magic": false,
+                    "direct_entity": {
+                        "type": "player",
+                        "equipment": {
+                            "mainhand": {
+                                "tag": "ew:melee_weapons"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "melee"
+        ]
+    ],
+    "rewards": {
+        "function": "ew:melee_kill"
+    }
+}

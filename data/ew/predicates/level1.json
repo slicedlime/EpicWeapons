@@ -1,0 +1,15 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "score",
+        "score": "ew_temp",
+        "target": {
+            "type": "fixed",
+            "name": "$Max"
+        }
+    },
+    "range": {
+        "min": 1,
+        "max": 10
+    }
+}

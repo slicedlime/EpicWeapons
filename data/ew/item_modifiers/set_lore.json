@@ -1,0 +1,42 @@
+[
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/spiders"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "text": "Spiderkiller",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/spiders"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "text": "Spidersbane",
+                "color": "green"
+            }
+        ],
+        "replace": true
+    }
+]

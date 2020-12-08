@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "ranged": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                    "direct_entity": {
+                        "type": "#minecraft:arrows"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ranged"
+        ]
+    ],
+    "rewards": {
+        "function": "ew:ranged_kill"
+    }
+}
