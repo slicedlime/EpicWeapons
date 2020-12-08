@@ -4,6 +4,109 @@
         "conditions": [
             {
                 "condition": "reference",
+                "name": "ew:types/skeletons"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "text": "Skeletonslayer",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/skeletons"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "text": "Bone Rattler",
+                "color": "green"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/skeletons"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "text": "The Bonemealer",
+                "color": "#1010ff"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/skeletons"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "text": "The Skull Crusher",
+                "color": "#fb21ff"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/skeletons"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "text": "The Pulverizer",
+                "color": "gold"
+            }
+        ],
+        "replace": true
+    },
+
+
+
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
                 "name": "ew:types/spiders"
             },
             {
@@ -13,7 +116,7 @@
         ],
         "lore": [
             {
-                "text": "Spiderkiller",
+                "text": "Spiderslayer",
                 "color": "white"
             }
         ],
@@ -35,6 +138,66 @@
             {
                 "text": "Spidersbane",
                 "color": "green"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/spiders"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "text": "The Spider Destroyer",
+                "color": "#1010ff"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/spiders"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "text": "The Arachnid Impaler",
+                "color": "#fb21ff"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/spiders"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "text": "The Brood Nightmare",
+                "color": "gold"
             }
         ],
         "replace": true

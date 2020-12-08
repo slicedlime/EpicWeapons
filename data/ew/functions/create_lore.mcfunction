@@ -3,7 +3,7 @@
 scoreboard players reset * ew_temp
 
 # Copy all the kill counts to a scoreboard
-execute store result score $Spiders ew_temp run data get storage ew:temp tag.kills.spiders 1
+function ew:copy_kill_scores
 
 # Find the maximum
 scoreboard players set $Max ew_temp 0
