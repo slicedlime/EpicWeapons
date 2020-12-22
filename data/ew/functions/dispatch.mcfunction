@@ -8,7 +8,7 @@ execute if entity @s[tag=ew_offhand] run data modify storage ew:temp tag.kills m
 scoreboard players set $Count ew_temp 0
 
 # Do type-specific digging
-function ew:dispatch_type
+function ew:dispatch_types
 
 # Copy data back to item
 execute if entity @s[tag=ew_mainhand] run item entity @s weapon.mainhand modify ew:copy_tag

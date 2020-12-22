@@ -1,3 +1,2 @@
-
-execute store result score $Skeletons ew_temp run data get storage ew:temp tag.kills.skeletons 1
-execute store result score $Spiders ew_temp run data get storage ew:temp tag.kills.spiders 1
+execute store result score $Skeleton ew_temp run data get storage ew:temp tag.kills.skeleton 1
+execute store result score $Spider ew_temp run data get storage ew:temp tag.kills.spider 1
