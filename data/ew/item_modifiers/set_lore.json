@@ -1,10 +1,11 @@
 [
     {
         "function": "set_lore",
+        "entity": "this",
         "conditions": [
             {
                 "condition": "reference",
-                "name": "ew:types/skeletons"
+                "name": "ew:types/skeleton"
             },
             {
                 "condition": "reference",
@@ -13,7 +14,8 @@
         ],
         "lore": [
             {
-                "text": "Skeletonslayer",
+                "nbt": "Skeleton[0]",
+                "storage": "ew:lore",
                 "color": "white"
             }
         ],
@@ -21,10 +23,11 @@
     },
     {
         "function": "set_lore",
+        "entity": "this",
         "conditions": [
             {
                 "condition": "reference",
-                "name": "ew:types/skeletons"
+                "name": "ew:types/skeleton"
             },
             {
                 "condition": "reference",
@@ -33,18 +36,20 @@
         ],
         "lore": [
             {
-                "text": "Bone Rattler",
-                "color": "green"
+                "nbt": "Skeleton[1]",
+                "storage": "ew:lore",
+                "color": "white"
             }
         ],
         "replace": true
     },
     {
         "function": "set_lore",
+        "entity": "this",
         "conditions": [
             {
                 "condition": "reference",
-                "name": "ew:types/skeletons"
+                "name": "ew:types/skeleton"
             },
             {
                 "condition": "reference",
@@ -53,18 +58,20 @@
         ],
         "lore": [
             {
-                "text": "The Bonemealer",
-                "color": "#1010ff"
+                "nbt": "Skeleton[2]",
+                "storage": "ew:lore",
+                "color": "white"
             }
         ],
         "replace": true
     },
     {
         "function": "set_lore",
+        "entity": "this",
         "conditions": [
             {
                 "condition": "reference",
-                "name": "ew:types/skeletons"
+                "name": "ew:types/skeleton"
             },
             {
                 "condition": "reference",
@@ -73,18 +80,20 @@
         ],
         "lore": [
             {
-                "text": "The Skull Crusher",
-                "color": "#fb21ff"
+                "nbt": "Skeleton[3]",
+                "storage": "ew:lore",
+                "color": "white"
             }
         ],
         "replace": true
     },
     {
         "function": "set_lore",
+        "entity": "this",
         "conditions": [
             {
                 "condition": "reference",
-                "name": "ew:types/skeletons"
+                "name": "ew:types/skeleton"
             },
             {
                 "condition": "reference",
@@ -93,21 +102,20 @@
         ],
         "lore": [
             {
-                "text": "The Pulverizer",
-                "color": "gold"
+                "nbt": "Skeleton[4]",
+                "storage": "ew:lore",
+                "color": "white"
             }
         ],
         "replace": true
     },
-
-
-
     {
         "function": "set_lore",
+        "entity": "this",
         "conditions": [
             {
                 "condition": "reference",
-                "name": "ew:types/spiders"
+                "name": "ew:types/spider"
             },
             {
                 "condition": "reference",
@@ -116,7 +124,8 @@
         ],
         "lore": [
             {
-                "text": "Spiderslayer",
+                "nbt": "Spider[0]",
+                "storage": "ew:lore",
                 "color": "white"
             }
         ],
@@ -124,10 +133,11 @@
     },
     {
         "function": "set_lore",
+        "entity": "this",
         "conditions": [
             {
                 "condition": "reference",
-                "name": "ew:types/spiders"
+                "name": "ew:types/spider"
             },
             {
                 "condition": "reference",
@@ -136,18 +146,20 @@
         ],
         "lore": [
             {
-                "text": "Spidersbane",
-                "color": "green"
+                "nbt": "Spider[1]",
+                "storage": "ew:lore",
+                "color": "white"
             }
         ],
         "replace": true
     },
     {
         "function": "set_lore",
+        "entity": "this",
         "conditions": [
             {
                 "condition": "reference",
-                "name": "ew:types/spiders"
+                "name": "ew:types/spider"
             },
             {
                 "condition": "reference",
@@ -156,18 +168,20 @@
         ],
         "lore": [
             {
-                "text": "The Spider Destroyer",
-                "color": "#1010ff"
+                "nbt": "Spider[2]",
+                "storage": "ew:lore",
+                "color": "white"
             }
         ],
         "replace": true
     },
     {
         "function": "set_lore",
+        "entity": "this",
         "conditions": [
             {
                 "condition": "reference",
-                "name": "ew:types/spiders"
+                "name": "ew:types/spider"
             },
             {
                 "condition": "reference",
@@ -176,18 +190,20 @@
         ],
         "lore": [
             {
-                "text": "The Arachnid Impaler",
-                "color": "#fb21ff"
+                "nbt": "Spider[3]",
+                "storage": "ew:lore",
+                "color": "white"
             }
         ],
         "replace": true
     },
     {
         "function": "set_lore",
+        "entity": "this",
         "conditions": [
             {
                 "condition": "reference",
-                "name": "ew:types/spiders"
+                "name": "ew:types/spider"
             },
             {
                 "condition": "reference",
@@ -196,8 +212,9 @@
         ],
         "lore": [
             {
-                "text": "The Brood Nightmare",
-                "color": "gold"
+                "nbt": "Spider[4]",
+                "storage": "ew:lore",
+                "color": "white"
             }
         ],
         "replace": true

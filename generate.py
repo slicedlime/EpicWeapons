@@ -43,11 +43,39 @@ def get_dispatch_line(type):
 def get_scoreboard_line(type):
     return 'scoreboard objectives add ew_' + type.lower() + ' minecraft.killed:minecraft.' + type.lower().replace(' ', '_') + ' "' + type + ' Killed"'
 
+def get_lore_table(type):
+    lore = []
+    for i in range(5):
+        lore.append({
+            'function': 'set_lore',
+            'entity': 'this',
+            'conditions': [
+                {
+                    'condition': 'reference',
+                    'name': 'ew:types/' + type.lower()
+                },
+                {
+                    'condition': 'reference',
+                    'name': 'ew:level' + str(i + 1)
+                }
+            ],
+            'lore': [
+                {
+                    'nbt': type + '[' + str(i) + ']',
+                    'storage': 'ew:lore',
+                    'color': 'white'
+                }
+            ],
+            'replace': True
+        })
+    return lore
+
 types = [
     'Skeleton',
     'Spider'
 ]
 
+set_lore = []
 with open('data/ew/functions/copy_kill_scores.mcfunction', 'w') as kill_file,\
      open('data/ew/functions/dispatch_types.mcfunction', 'w') as dispatch_file,\
      open('data/ew/functions/create_type_scoreboards.mcfunction', 'w') as scoreboard_file:
@@ -57,3 +85,7 @@ with open('data/ew/functions/copy_kill_scores.mcfunction', 'w') as kill_file,\
         kill_file.write(get_copy_score_line(type) + '\n')
         dispatch_file.write(get_dispatch_line(type) + '\n')
         scoreboard_file.write(get_scoreboard_line(type) + '\n')
+        set_lore.extend(get_lore_table(type))
+
+with open('data/ew/item_modifiers/set_lore.json', 'w') as lore_file:
+    json.dump(set_lore, lore_file, indent=4)
