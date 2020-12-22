@@ -5,6 +5,226 @@
         "conditions": [
             {
                 "condition": "reference",
+                "name": "ew:types/blaze"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "blaze[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/blaze"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "blaze[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/blaze"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "blaze[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/blaze"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "blaze[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/blaze"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "blaze[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/cave_spider"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "cave_spider[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/cave_spider"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "cave_spider[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/cave_spider"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "cave_spider[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/cave_spider"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "cave_spider[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/cave_spider"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "cave_spider[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
                 "name": "ew:types/creeper"
             },
             {
@@ -103,6 +323,1656 @@
         "lore": [
             {
                 "nbt": "creeper[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/drowned"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "drowned[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/drowned"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "drowned[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/drowned"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "drowned[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/drowned"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "drowned[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/drowned"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "drowned[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/enderman"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "enderman[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/enderman"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "enderman[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/enderman"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "enderman[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/enderman"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "enderman[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/enderman"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "enderman[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/endermite"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "endermite[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/endermite"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "endermite[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/endermite"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "endermite[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/endermite"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "endermite[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/endermite"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "endermite[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/evoker"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "evoker[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/evoker"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "evoker[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/evoker"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "evoker[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/evoker"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "evoker[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/evoker"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "evoker[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/ghast"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "ghast[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/ghast"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "ghast[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/ghast"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "ghast[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/ghast"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "ghast[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/ghast"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "ghast[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/guardian"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "guardian[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/guardian"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "guardian[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/guardian"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "guardian[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/guardian"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "guardian[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/guardian"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "guardian[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/hoglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "hoglin[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/hoglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "hoglin[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/hoglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "hoglin[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/hoglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "hoglin[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/hoglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "hoglin[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/husk"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "husk[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/husk"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "husk[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/husk"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "husk[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/husk"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "husk[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/husk"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "husk[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/magma_cube"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "magma_cube[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/magma_cube"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "magma_cube[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/magma_cube"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "magma_cube[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/magma_cube"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "magma_cube[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/magma_cube"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "magma_cube[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/phantom"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "phantom[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/phantom"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "phantom[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/phantom"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "phantom[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/phantom"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "phantom[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/phantom"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "phantom[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/piglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "piglin[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/piglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "piglin[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/piglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "piglin[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/piglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "piglin[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/piglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "piglin[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/piglin_brute"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "piglin_brute[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/piglin_brute"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "piglin_brute[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/piglin_brute"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "piglin_brute[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/piglin_brute"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "piglin_brute[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/piglin_brute"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "piglin_brute[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/pillager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "pillager[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/pillager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "pillager[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/pillager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "pillager[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/pillager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "pillager[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/pillager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "pillager[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/ravager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "ravager[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/ravager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "ravager[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/ravager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "ravager[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/ravager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "ravager[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/ravager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "ravager[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/shulker"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "shulker[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/shulker"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "shulker[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/shulker"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "shulker[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/shulker"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "shulker[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/shulker"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "shulker[4]",
                 "storage": "ew:lore",
                 "color": "white"
             }
@@ -335,6 +2205,116 @@
         "conditions": [
             {
                 "condition": "reference",
+                "name": "ew:types/slime"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "slime[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/slime"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "slime[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/slime"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "slime[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/slime"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "slime[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/slime"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "slime[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
                 "name": "ew:types/spider"
             },
             {
@@ -433,6 +2413,996 @@
         "lore": [
             {
                 "nbt": "spider[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/stray"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "stray[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/stray"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "stray[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/stray"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "stray[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/stray"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "stray[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/stray"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "stray[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/vex"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "vex[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/vex"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "vex[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/vex"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "vex[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/vex"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "vex[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/vex"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "vex[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/vindicator"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "vindicator[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/vindicator"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "vindicator[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/vindicator"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "vindicator[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/vindicator"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "vindicator[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/vindicator"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "vindicator[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/witch"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "witch[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/witch"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "witch[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/witch"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "witch[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/witch"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "witch[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/witch"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "witch[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/wither_skeleton"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "wither_skeleton[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/wither_skeleton"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "wither_skeleton[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/wither_skeleton"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "wither_skeleton[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/wither_skeleton"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "wither_skeleton[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/wither_skeleton"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "wither_skeleton[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zoglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zoglin[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zoglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zoglin[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zoglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zoglin[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zoglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zoglin[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zoglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zoglin[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombie"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombie[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombie"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombie[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombie"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombie[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombie"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombie[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombie"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombie[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombie_villager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombie_villager[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombie_villager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombie_villager[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombie_villager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombie_villager[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombie_villager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombie_villager[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombie_villager"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombie_villager[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombified_piglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombified_piglin[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombified_piglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombified_piglin[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombified_piglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombified_piglin[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombified_piglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombified_piglin[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/zombified_piglin"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "zombified_piglin[4]",
                 "storage": "ew:lore",
                 "color": "white"
             }

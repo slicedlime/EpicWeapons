@@ -4,6 +4,7 @@
         "#ew:axes",
         "#ew:hoes",
         "#ew:pickaxes",
+        "#ew:shovels",
         "minecraft:trident"
     ]
 }

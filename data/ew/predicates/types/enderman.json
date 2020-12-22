@@ -1,0 +1,21 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "score",
+        "score": "ew_temp",
+        "target": {
+            "type": "fixed",
+            "name": "$enderman"
+        }
+    },
+    "range": {
+        "min": {
+            "type": "score",
+            "score": "ew_temp",
+            "target": {
+                "type": "fixed",
+                "name": "$Max"
+            }
+        }
+    }
+}
