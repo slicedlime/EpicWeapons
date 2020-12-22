@@ -5,6 +5,226 @@
         "conditions": [
             {
                 "condition": "reference",
+                "name": "ew:types/creeper"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "creeper[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/creeper"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "creeper[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/creeper"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "creeper[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/creeper"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "creeper[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/creeper"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "creeper[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/silverfish"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level1"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "silverfish[0]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/silverfish"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level2"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "silverfish[1]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/silverfish"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level3"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "silverfish[2]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/silverfish"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level4"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "silverfish[3]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ew:types/silverfish"
+            },
+            {
+                "condition": "reference",
+                "name": "ew:level5"
+            }
+        ],
+        "lore": [
+            {
+                "nbt": "silverfish[4]",
+                "storage": "ew:lore",
+                "color": "white"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "conditions": [
+            {
+                "condition": "reference",
                 "name": "ew:types/skeleton"
             },
             {
@@ -14,7 +234,7 @@
         ],
         "lore": [
             {
-                "nbt": "Skeleton[0]",
+                "nbt": "skeleton[0]",
                 "storage": "ew:lore",
                 "color": "white"
             }
@@ -36,7 +256,7 @@
         ],
         "lore": [
             {
-                "nbt": "Skeleton[1]",
+                "nbt": "skeleton[1]",
                 "storage": "ew:lore",
                 "color": "white"
             }
@@ -58,7 +278,7 @@
         ],
         "lore": [
             {
-                "nbt": "Skeleton[2]",
+                "nbt": "skeleton[2]",
                 "storage": "ew:lore",
                 "color": "white"
             }
@@ -80,7 +300,7 @@
         ],
         "lore": [
             {
-                "nbt": "Skeleton[3]",
+                "nbt": "skeleton[3]",
                 "storage": "ew:lore",
                 "color": "white"
             }
@@ -102,7 +322,7 @@
         ],
         "lore": [
             {
-                "nbt": "Skeleton[4]",
+                "nbt": "skeleton[4]",
                 "storage": "ew:lore",
                 "color": "white"
             }
@@ -124,7 +344,7 @@
         ],
         "lore": [
             {
-                "nbt": "Spider[0]",
+                "nbt": "spider[0]",
                 "storage": "ew:lore",
                 "color": "white"
             }
@@ -146,7 +366,7 @@
         ],
         "lore": [
             {
-                "nbt": "Spider[1]",
+                "nbt": "spider[1]",
                 "storage": "ew:lore",
                 "color": "white"
             }
@@ -168,7 +388,7 @@
         ],
         "lore": [
             {
-                "nbt": "Spider[2]",
+                "nbt": "spider[2]",
                 "storage": "ew:lore",
                 "color": "white"
             }
@@ -190,7 +410,7 @@
         ],
         "lore": [
             {
-                "nbt": "Spider[3]",
+                "nbt": "spider[3]",
                 "storage": "ew:lore",
                 "color": "white"
             }
@@ -212,7 +432,7 @@
         ],
         "lore": [
             {
-                "nbt": "Spider[4]",
+                "nbt": "spider[4]",
                 "storage": "ew:lore",
                 "color": "white"
             }

@@ -1,5 +1,8 @@
 import json
 
+def get_id(type):
+    return type.lower().replace(' ', '_')
+
 def write_predicate(mob_type):
     data = {
         'condition': 'value_check',
@@ -8,7 +11,7 @@ def write_predicate(mob_type):
             'score': 'ew_temp',
             'target': {
                 'type': 'fixed',
-                'name': '$' + mob_type
+                'name': '$' + get_id(mob_type)
             }
         },
         'range': {
@@ -23,25 +26,25 @@ def write_predicate(mob_type):
         }
     }
 
-    with open('data/ew/predicates/types/' + mob_type.lower() + '.json', 'w') as file:
+    with open('data/ew/predicates/types/' + get_id(mob_type) + '.json', 'w') as file:
         json.dump(data, file, indent=4)
 
 def write_function(type):
-    with open('data/ew/functions/types/' + type.lower() + '.mcfunction', 'w') as file:
+    with open('data/ew/functions/types/' + get_id(type) + '.mcfunction', 'w') as file:
         file.write('# ' + type + ' killed!\n')
-        file.write('execute store result score $Count ew_temp run data get storage ew:temp tag.kills.' + type.lower() + ' 1\n')
-        file.write('scoreboard players operation $Count ew_temp += @s ew_' + type.lower() + '\n')
-        file.write('execute store result storage ew:temp tag.kills.' + type.lower() + ' int 1 run scoreboard players get $Count ew_temp\n')
-        file.write('scoreboard players reset @s ew_' + type.lower() + '\n')
+        file.write('execute store result score $Count ew_temp run data get storage ew:temp tag.kills.' + get_id(type) + ' 1\n')
+        file.write('scoreboard players operation $Count ew_temp += @s ew_' + get_id(type) + '\n')
+        file.write('execute store result storage ew:temp tag.kills.' + get_id(type) + ' int 1 run scoreboard players get $Count ew_temp\n')
+        file.write('scoreboard players reset @s ew_' + get_id(type) + '\n')
 
 def get_copy_score_line(type):
-    return 'execute store result score $' + type + ' ew_temp run data get storage ew:temp tag.kills.' + type.lower() + ' 1'
+    return 'execute store result score $' + get_id(type) + ' ew_temp run data get storage ew:temp tag.kills.' + get_id(type) + ' 1'
 
 def get_dispatch_line(type): 
-    return 'execute if score @s ew_' + type.lower() + ' matches 1.. run function ew:types/' + type.lower()
+    return 'execute if score @s ew_' + get_id(type) + ' matches 1.. run function ew:types/' + get_id(type)
 
 def get_scoreboard_line(type):
-    return 'scoreboard objectives add ew_' + type.lower() + ' minecraft.killed:minecraft.' + type.lower().replace(' ', '_') + ' "' + type + ' Killed"'
+    return 'scoreboard objectives add ew_' + get_id(type) + ' minecraft.killed:minecraft.' + get_id(type) + ' "' + type + ' Killed"'
 
 def get_lore_table(type):
     lore = []
@@ -52,7 +55,7 @@ def get_lore_table(type):
             'conditions': [
                 {
                     'condition': 'reference',
-                    'name': 'ew:types/' + type.lower()
+                    'name': 'ew:types/' + get_id(type)
                 },
                 {
                     'condition': 'reference',
@@ -61,7 +64,7 @@ def get_lore_table(type):
             ],
             'lore': [
                 {
-                    'nbt': type + '[' + str(i) + ']',
+                    'nbt': get_id(type) + '[' + str(i) + ']',
                     'storage': 'ew:lore',
                     'color': 'white'
                 }
@@ -71,6 +74,8 @@ def get_lore_table(type):
     return lore
 
 types = [
+    'Creeper',
+    'Silverfish',
     'Skeleton',
     'Spider'
 ]

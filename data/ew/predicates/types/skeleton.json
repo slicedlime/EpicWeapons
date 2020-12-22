@@ -5,7 +5,7 @@
         "score": "ew_temp",
         "target": {
             "type": "fixed",
-            "name": "$Skeleton"
+            "name": "$skeleton"
         }
     },
     "range": {
